@@ -1,0 +1,342 @@
+
+
+.tipo-de-cita {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tipo-de-cita .div {
+  background-color: #ffffff;
+  width: 1512px;
+  height: 800px;
+  position: relative;
+}
+
+.tipo-de-cita .overlap {
+  position: absolute;
+  width: 1266px;
+  height: 785px;
+  top: 0px;
+  left: 75px;
+  background-color: #fffcfc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.tipo-de-cita .overlap-group {
+  position: absolute;
+  width: 826px;
+  height: 693px;
+  top: 49px;
+  left: 408px;
+  border-radius: 10px;
+}
+
+.tipo-de-cita .rectangle {
+  position: absolute;
+  width: 826px;
+  height: 670px;
+  top: 0;
+  left: 0;
+  background-color: #d4d4d4;;
+  border-radius: 10px;
+  opacity: 0.3;
+}
+
+.tipo-de-cita .secondary-buttons {
+  position: absolute;
+  width: 163px;
+  height: 46px;
+  top: 605px;
+  left: 15px;
+  border-radius: 20px;
+  background-color: rgb(71, 222, 159);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  font-size: larger;
+}
+
+.tipo-de-cita .secondary-buttons a{
+  text-decoration: none;
+  color: white;
+}
+
+.tipo-de-cita .concertar-presencial {
+  position: absolute;
+  width: 432px;
+  top: 150px;
+  left: 50px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tipo-de-cita .v-IDEOLLAMADA {
+  position: absolute;
+  width: 243px;
+  top: 340px;
+  left: 500px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .elige-la-modalidad {
+  position: absolute;
+  width: 430px;
+  top: 55px;
+  left: 220px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--green);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .image {
+  top: 205px;
+  left: 65px;
+  position: absolute;
+  width: 320px;
+  object-fit: cover;
+}
+
+.tipo-de-cita .img {
+  top: 390px;
+  left: 450px;
+  position: absolute;
+  width: 320px;
+  object-fit: cover;
+}
+
+.tipo-de-cita .secondary-buttons-2 {
+  top: 400px;
+  left: 145px;
+  position: absolute;
+  width: 163px;
+  height: 46px;
+  border-radius: 20px;
+  background-color: rgb(71, 222, 159);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  font-size: larger;
+}
+
+.tipo-de-cita .secondary-buttons-3 {
+  top: 585px;
+  left: 535px;
+  position: absolute;
+  width: 163px;
+  height: 46px;
+  border-radius: 20px;
+  background-color: rgb(71, 222, 159);
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+  font-size: larger;
+}
+
+.tipo-de-cita .overlap-2 {
+  position: absolute;
+  width: 382px;
+  height: 673px;
+  top: 49px;
+  left: 26px;
+  background-size: 100% 100%;
+}
+
+.tipo-de-cita .paso {
+  top: 331px;
+  left: 84px;
+  position: absolute;
+  width: 67px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .text-wrapper {
+  top: 239px;
+  left: 84px;
+  position: absolute;
+  width: 67px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .overlap-3 {
+  position: absolute;
+  width: 205px;
+  height: 43px;
+  top: 154px;
+  left: 84px;
+}
+
+.tipo-de-cita .paso-2 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 67px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .elige-modalidad {
+  width: 205px;
+  top: 21px;
+  left: 0;
+  position: absolute;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .elige-psc-logo {
+  width: 175px;
+  top: 262px;
+  left: 84px;
+  position: absolute;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .elige-fecha {
+  width: 196px;
+  top: 359px;
+  left: 84px;
+  position: absolute;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .div-wrapper {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 332px;
+  left: 22px;
+  border-radius: 25.5px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.tipo-de-cita .text-wrapper-2 {
+  position: absolute;
+  width: 18px;
+  top: 1px;
+  left: 12px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .overlap-group-2 {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 147px;
+  left: 22px;
+  background-color: #ffffff;
+  border-radius: 25.5px;
+}
+
+.tipo-de-cita .text-wrapper-3 {
+  top: 2px;
+  left: 13px;
+  color: #000000;
+  position: absolute;
+  width: 18px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .cita {
+  position: absolute;
+  width: 126px;
+  top: 60px;
+  left: 145px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.tipo-de-cita .overlap-4 {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 236px;
+  left: 22px;
+  border-radius: 25.5px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.tipo-de-cita .text-wrapper-4 {
+  top: 0;
+  left: 12px;
+  color: #ffffff;
+  position: absolute;
+  width: 18px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
